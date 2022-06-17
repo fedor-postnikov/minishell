@@ -6,7 +6,7 @@
 /*   By: dalfredi <dalfredi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 20:06:27 by bpono             #+#    #+#             */
-/*   Updated: 2022/06/16 16:56:51 by dalfredi         ###   ########.fr       */
+/*   Updated: 2022/06/17 17:01:09 by dalfredi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,6 @@ int	cd_proces_minus(void)
 
 	getcwd(cwd, PATH_MAX);
 	cd = ft_strdup(env_get("OLDPWD"));
-	printf("'%s'\n", cd);
 	if (cd == NULL)
 	{
 		ft_putstr_fd("minishell: cd: OLDPWD not set\n", 2);

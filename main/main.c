@@ -6,7 +6,7 @@
 /*   By: dalfredi <dalfredi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/28 17:04:27 by dalfredi          #+#    #+#             */
-/*   Updated: 2022/06/17 16:48:07 by dalfredi         ###   ########.fr       */
+/*   Updated: 2022/06/17 17:01:01 by dalfredi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,6 @@ void	main_loop(void)
 			continue ;
 		execute(command_table);
 		ft_lstclear(&command_table, &command_delete);
-		printf("\1\n");
 	}
 }
 
