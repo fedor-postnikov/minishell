@@ -1,6 +1,6 @@
 # minishell
 ## Description
-This is a School 21 (École 42) group project which I did with [bpono]().  
+This is a School 21 (École 42) group project which I did with [Marina Yudina](https://github.com/marinayudina).  
 The goal of this project was to write your own simple bash-like shell.
 ## Features
 Minishell supports following functions:
@@ -27,7 +27,7 @@ Minishell supports following functions:
 You need [The GNU Readline Library](https://tiswww.case.edu/php/chet/readline/rltop.html#Distributions) 
 to be installed on you computer to launch minishell.
 If are using macOS you should install it via Brew with `brew install readline` command.
-On Ubuntu you can use `sudo apt install libreadline-dev`.  
+On Debian/Ubuntu you can use `sudo apt install libreadline-dev`.  
 After installation just clone the project and compile it with make:
 ```shell
 git clone https://github.com/fedor-postnikov/minishell.git
